@@ -319,7 +319,7 @@
     <p>In the event that a manager fails to pay before kickoff of the 1st game of the season, they will be ineligible to receive weekly payouts until dues have been received. Continued truancy may also be grounds for a league expulsion vote.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Weekly Payout</h3>
-    <p>Weekly payouts of ${weeklyPayoutAmount} will be offered to the top score for eligible managers from each week, including the playoffs (${weeklyPayoutInstances} total).</p>
+    <p>Weekly payouts of ${weeklyPayoutAmount} will be offered to the top score for eligible managers from each week, including the playoffs ({weeklyPayoutInstances} weeks total).</p>
     
     <h3 bind:this={sevenThree}>7.3 Season Payouts</h3>
     <p>Regular season champ payout is ${regSeasonChamp} (same as the 1-seed in playoffs)</p>
