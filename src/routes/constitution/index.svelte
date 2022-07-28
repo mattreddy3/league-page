@@ -17,7 +17,7 @@
     let four, fourOne, fourTwo;
     let five, fiveOne;
     let six, sixOne, sixTwo, sixThree;
-    let seven, sevenOne, sevenTwo, sevenThree, sevenFour;
+    let seven, sevenOne, sevenTwo, sevenThree, sevenFour, sevenFive;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -152,7 +152,8 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 League Dues</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenTwo)}>7.2 Weekly Payout</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenThree)}>7.3 Season Payouts</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenFour)}>7.4 Raising Dues</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenFour)}>7.4 Last Place</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenFive)}>7.5 Raising Dues</h4>
     
     
     <hr />
@@ -330,7 +331,9 @@
         <li>3rd place: ${(playoffPot * .1).toFixed(2)}</li>
     </ul>
     
-    <h3 bind:this={sevenFour}>7.4 Raising Dues</h3>
+    <h3 bind:this={sevenFour}>7.4 Last Place</h3>
+    <p>Last place each season will be determined by a reverse elimination consolation bracket (i.e. you must win to be eliminated). The last place "winner" will be tasked with covering league (web) hosting expenses for the upcoming season, ~$10-$15.</p>
+    <h3 bind:this={sevenFive}>7.5 Raising Dues</h3>
     <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buy-in, finding a co-manager to split the cost is reccomended.</p>
 
 </div>
