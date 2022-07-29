@@ -8,8 +8,12 @@
     let weeklyPayoutInstances = 17
     let weeklyPayoutAmount = 15
     let weeklyPot = weeklyPayoutAmount * weeklyPayoutInstances
-    let regSeasonChamp = dues / 2
-    let playoffPot = totalPot - weeklyPot - regSeasonChamp
+    let regSeasonChamp = dues * 3/ 4
+    let regSeasonRunnerUp = dues / 4
+    let thirdPlacePlayoff = dues // Refund
+    let championshipPot = totalPot - weeklyPot - regSeasonChamp - regSeasonRunnerUp - thirdPlacePlayoff
+    let firstPlacePlayoff = championshipPot *.6
+    let secondPlacePlayoff = championshipPot * .3
 
     let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
     let two, twoOne, twoTwo, twoThree;
@@ -320,15 +324,16 @@
     <p>In the event that a manager fails to pay before kickoff of the 1st game of the season, they will be ineligible to receive weekly payouts until dues have been received. Continued truancy may also be grounds for a league expulsion vote.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Weekly Payout</h3>
-    <p>Weekly payouts of ${weeklyPayoutAmount} will be offered to the top score for eligible managers from each week, including the playoffs ({weeklyPayoutInstances} weeks total).</p>
+    <p>Weekly payouts of ${weeklyPayoutAmount.toFixed(2)} will be offered to the top score for eligible managers from each week, including the playoffs ({weeklyPayoutInstances} weeks total).</p>
     
     <h3 bind:this={sevenThree}>7.3 Season Payouts</h3>
-    <p>Regular season champ payout is ${regSeasonChamp} (same as the 1-seed in playoffs)</p>
+    <p>Regular season champ payout is ${regSeasonChamp.toFixed(2)} (the team in the 1-seed for playoffs)</p>
+    <p>Regular season runner-up payout is ${regSeasonRunnerUp.toFixed(2)} (the team in the 2-seed for playoffs)</p>
     <p>Postseason payout is structured as follows:</p>
     <ul>
-        <li>1st place: ${(playoffPot * .6).toFixed(2)}</li>
-        <li>2nd place: ${(playoffPot * .3).toFixed(2)}</li>
-        <li>3rd place: ${(playoffPot * .1).toFixed(2)}</li>
+        <li>1st place: ${(firstPlacePlayoff).toFixed(2)}</li>
+        <li>2nd place: ${(secondPlacePlayoff).toFixed(2)}</li>
+        <li>3rd place: ${(thirdPlacePlayoff).toFixed(2)}</li>
     </ul>
     
     <h3 bind:this={sevenFour}>7.4 Last Place</h3>
