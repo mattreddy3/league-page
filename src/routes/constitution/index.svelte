@@ -353,7 +353,8 @@
   </ul>
   <p>
     This player then automatically re-enters the draft. This player
-    <u>does</u> count against the team's 3-keeper quota.
+    <u>does</u> count against the team's 3-keeper quota for the season they are kept.
+    I.e. There is no possibility for a manager to keep 4 players in any circumstance.
   </p>
 
   <h4 bind:this={twoThreeThree}>2.3.3 Trades</h4>
