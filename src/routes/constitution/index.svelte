@@ -427,7 +427,7 @@
       <tr><td>200+ rec yds*</td><td class="right">3.0</td></tr>
       <tr><td>300-399 pass yds</td><td class="right">1.0</td></tr>
       <tr><td>400+ pass yds*</td><td class="right">3.0</td></tr>
-      <tr><td>First down (pass, rush, rec)</td><td class="right">0.5</td></tr>
+      <tr><td>First down (rush, rec)</td><td class="right">0.5</td></tr>
     </table>
   </div>
   <p>* Yardage bonuses do not stack within kind. Some examples:</p>
