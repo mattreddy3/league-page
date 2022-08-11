@@ -412,8 +412,8 @@
     The league scoring system breakdown is listed on the <a
       href="https://sleeper.com/leagues/854978776533184512"
       target="_blank">Sleeper fantasy app</a
-    > (for the most part, it follows typical .5PPR Scoring). The scoring system will
-    never change without a majority (7/12) league vote.
+    > (for the most part, it follows typical Non-PPR Scoring). The scoring system
+    will never change without a majority (7/12) league vote.
   </p>
   <p>Exceptions include:</p>
   <div class="subBlock">
@@ -427,7 +427,7 @@
       <tr><td>200+ rec yds*</td><td class="right">3.0</td></tr>
       <tr><td>300-399 pass yds</td><td class="right">1.0</td></tr>
       <tr><td>400+ pass yds*</td><td class="right">3.0</td></tr>
-      <tr><td>First down (pass, rush, rec)</td><td class="right">0.5</td></tr>
+      <tr><td>First down (rush, rec)</td><td class="right">0.5</td></tr>
     </table>
   </div>
   <p>* Yardage bonuses do not stack within kind. Some examples:</p>
