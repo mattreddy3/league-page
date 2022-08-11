@@ -412,8 +412,8 @@
     The league scoring system breakdown is listed on the <a
       href="https://sleeper.com/leagues/854978776533184512"
       target="_blank">Sleeper fantasy app</a
-    > (for the most part, it follows typical .5PPR Scoring). The scoring system will
-    never change without a majority (7/12) league vote.
+    > (for the most part, it follows typical Non-PPR Scoring). The scoring system
+    will never change without a majority (7/12) league vote.
   </p>
   <p>Exceptions include:</p>
   <div class="subBlock">
