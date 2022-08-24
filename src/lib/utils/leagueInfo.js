@@ -17,12 +17,12 @@ export const homepageText = `
 <li>Jason W</li>
 <li>Matt Reddy</li>
 <li>Matt Reschke</li>
+<li>Brian</li>
 </ul>
 <h4>Not Paid:</h4>
 <ul>
 <li>Derek</li>
 <li>Jason M</li>
-<li>Brian</li>
 <li>Sean</li>
 <li>Reece</li>
 <li>Jack</li>
