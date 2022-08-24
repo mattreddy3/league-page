@@ -227,15 +227,7 @@
 
   <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
 
-  <div class="subBlock">
-    <table class="positionMaximums">
-      <tr><td>QB</td><td class="right">3</td></tr>
-      <tr><td>RB</td><td class="right">6</td></tr>
-      <tr><td>WR</td><td class="right">9</td></tr>
-      <tr><td>TE</td><td class="right">3</td></tr>
-      <tr><td>D/ST</td><td class="right">3</td></tr>
-    </table>
-  </div>
+  <p>None.</p>
 
   <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
 
