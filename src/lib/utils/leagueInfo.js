@@ -16,6 +16,7 @@ export const homepageText = `
 <li>John</li>
 <li>Jason W</li>
 <li>Matt Reddy</li>
+<li>Matt Reschke</li>
 </ul>
 <h4>Not Paid:</h4>
 <ul>
@@ -25,7 +26,6 @@ export const homepageText = `
 <li>Sean</li>
 <li>Reece</li>
 <li>Jack</li>
-<li>Matt Reschke</li>
 </ul>
 
 <p>Any issues or feature requests on this site, please submit here: <a href="https://github.com/mattreddy3/league-page/issues">https://github.com/mattreddy3/league-page/issues</a></p>
