@@ -18,14 +18,14 @@ export const homepageText = `
 <li>Matt Reddy</li>
 <li>Matt Reschke</li>
 <li>Brian</li>
+<li>Derek</li>
+<li>Sean</li>
+<li>Jack</li>
+<li>Jason M</li>
 </ul>
 <h4>Not Paid:</h4>
 <ul>
-<li>Derek</li>
-<li>Jason M</li>
-<li>Sean</li>
 <li>Reece</li>
-<li>Jack</li>
 </ul>
 
 <p>Any issues or feature requests on this site, please submit here: <a href="https://github.com/mattreddy3/league-page/issues">https://github.com/mattreddy3/league-page/issues</a></p>
