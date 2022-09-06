@@ -7,25 +7,25 @@ export const enableBlog = true // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE
 
 /*   STEP 2   */
 export const homepageText = `
-<p>Payments ($200) due by <b>August 28th</b></p>
-
-<h4>Paid:</h4>
-<ul>
-<li>Todd</li>
-<li>Kyle</li>
-<li>John</li>
-<li>Jason W</li>
-<li>Matt Reddy</li>
-<li>Matt Reschke</li>
-<li>Brian</li>
-<li>Derek</li>
-<li>Sean</li>
-<li>Jack</li>
-<li>Jason M</li>
-</ul>
-<h4>Not Paid:</h4>
-<ul>
-<li>Reece</li>
+<p>If you want to change your manager page, please send me your team information in the following information (using mine as an example):</p>
+<code>
+    name: "Matt Reddy",
+    location: "Barcelona", // (optional)
+    bio: "Just a guy with a manbun now",
+    fantasyStart: 2005, // (optional) when did the manager start playing fantasy football
+    favoriteTeam: "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    rival: {
+      name: "Red Herring", // Can be anything (usually your rival's name)
+      link: 99, // manager array number within this array, or null to link back to all managers page
+    },
+    favoritePlayer: 6797, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+    valuePosition: "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    philosophy: "Your fantasy team's philosophy",
+    tradingScale: 10, // 1 - 10
+    preferredContact: "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+  }
+</code>
 </ul>
 
 <p>Any issues or feature requests on this site, please submit here: <a href="https://github.com/mattreddy3/league-page/issues">https://github.com/mattreddy3/league-page/issues</a></p>
@@ -61,7 +61,7 @@ export const managers = [
     rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
     philosophy: "Your fantasy team's philosophy",
     tradingScale: 10, // 1 - 10
-    preferredContact: "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    preferredContact: "WhatsApp", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
   },
   // {
   //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
