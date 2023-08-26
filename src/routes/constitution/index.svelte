@@ -243,9 +243,9 @@
     <p>
       If any owners are suspected of accepting bribes/offering bribes to enhance
       their/another owners team via trade, trading any assets other than fantasy
-      players, draft picks, FAAB $, or otherwise found guilty of engaging in any
-      form of collusion*, all parties involved in the trade will be susceptible
-      to punishment. The punishments will go as follows:
+      players, draft dollars, FAAB $, or otherwise found guilty of engaging in
+      any form of collusion*, all parties involved in the trade will be
+      susceptible to punishment. The punishments will go as follows:
     </p>
 
     <ul>
@@ -292,9 +292,8 @@
   <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
   <div class="subBlock">
     <p>
-      You will not be able to trade draft picks that are more than 3 drafts
-      away. For example, during the 2022 season you cannot trade any picks in or
-      after the 2026 draft. You may only trade FAAB $ from the current season.
+      Pre-season: You may only trade draft $ for the upcoming draft. In-season:
+      You may only trade FAAB $ for the current season.
     </p>
   </div>
 
