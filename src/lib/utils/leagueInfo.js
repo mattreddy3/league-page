@@ -1,5 +1,6 @@
 /*   STEP 1   */
-export const leagueID = "854978776533184512" // your league ID
+export const leagueID2022 = "854978776533184512" // 2022 league ID
+export const leagueID = "972782648546365440" // current league ID
 export const leagueName = "The Very Big 12" // your league name
 export const dues = 200 // (optional) used in template constitution page
 export const dynasty = false // true for dynasty leagues, false for redraft and keeper
@@ -7,27 +8,8 @@ export const enableBlog = true // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE
 
 /*   STEP 2   */
 export const homepageText = `
-<p>If you want to change your manager page, please send me your team information in the following information (using mine as an example):</p>
-<code>{
-    name: "Matt Reddy",<br>
-    location: "Barcelona", // (optional)<br>
-    bio: "Just a guy with a manbun now",<br>
-    fantasyStart: 2005, // (optional) when did the manager start playing fantasy football<br>
-    favoriteTeam: "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE<br>
-    rival: {<br>
-      name: "Red Herring", // Can be anything (usually your rival's name)<br>
-      link: 99, // manager array number within this array, or null to link back to all managers page<br>
-    },<br>
-    favoritePlayer: 6797, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)<br>
-    valuePosition: "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)<br>
-    rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)<br>
-    philosophy: "Your fantasy team's philosophy",<br>
-    tradingScale: 10, // 1 - 10<br>
-    preferredContact: "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template<br>
-  }<br>
-</code>
-</ul>
-
+<p>2023 season is nigh</p>
+<br/>
 <p>Any issues or feature requests on this site, please submit here: <a href="https://github.com/mattreddy3/league-page/issues">https://github.com/mattreddy3/league-page/issues</a></p>
 `
 

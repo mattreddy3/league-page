@@ -106,7 +106,7 @@
     2.3.1 Allotment
   </h5>
   <h5 class="noUnderscore clickable" on:click={() => goToSection(twoThreeTwo)}>
-    2.3.2 Franchise Tag
+    <s>2.3.2 Franchise Tag</s>
   </h5>
   <h5
     class="noUnderscore clickable"
@@ -232,10 +232,10 @@
   <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
 
   <p>
-    Trading of players and draft picks (up to 3 drafts away) are allowed. Trades
-    will process immediately and will be reversed if vetoed or under
-    investigation for collusion. Tradable assets include players, draft picks,
-    and FAAB $.
+    Trading of players is allowed at any time. Trade dollars can also be traded
+    in the off-season and for the upcoming draft only. Trades will process
+    immediately and will be reversed if vetoed or under investigation for
+    collusion. Tradable assets include players, draft dollars, and FAAB $.
   </p>
 
   <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
@@ -331,24 +331,25 @@
   <h3 bind:this={twoThree}>2.3 Keepers</h3>
   <h4 bind:this={twoThreeOne}>2.3.1 Allotment</h4>
   <p>A team is allotted 3 keepers per season.</p>
-  <h4 bind:this={twoThreeTwo}>2.3.2 Franchise Tag</h4>
-  <p>
-    A team can franchise tag one player per season in order to keep them for the
-    highest of the following:
-  </p>
-  <ul>
-    <li>120% of the previous season draft price</li>
-    <li>
-      The average of the five most expensive players at that position from
-      previous draft
-    </li>
-  </ul>
-  <p>
-    This player then automatically re-enters the draft. This player
-    <u>does</u> count against the team's 3-keeper quota for the season they are kept.
-    I.e. There is no possibility for a manager to keep 4 players in any circumstance.
-  </p>
-
+  <s
+    ><h4 bind:this={twoThreeTwo}>2.3.2 Franchise Tag</h4>
+    <p>
+      A team can franchise tag one player per season in order to keep them for
+      the highest of the following:
+    </p>
+    <ul>
+      <li>120% of the previous season draft price</li>
+      <li>
+        The average of the five most expensive players at that position from
+        previous draft
+      </li>
+    </ul>
+    <p>
+      This player then automatically re-enters the draft. This player
+      <u>does</u> count against the team's 3-keeper quota for the season they are
+      kept. I.e. There is no possibility for a manager to keep 4 players in any circumstance.
+    </p>
+  </s>
   <h4 bind:this={twoThreeThree}>2.3.3 Trades</h4>
   <p>
     Keeper slots are not tradable, but the players themselves are. I.e. Team A
