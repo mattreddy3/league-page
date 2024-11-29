@@ -9,7 +9,7 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-<p>2023 season is nigh</p>
+<p>2024 season in process.</p>
 <br/>
 <p>Any issues or feature requests on this site, please submit here: <a href="https://github.com/mattreddy3/league-page/issues">https://github.com/mattreddy3/league-page/issues</a></p>
 `;
