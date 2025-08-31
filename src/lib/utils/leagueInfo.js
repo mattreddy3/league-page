@@ -1,7 +1,8 @@
 /*   STEP 1   */
 export const leagueID2022 = "854978776533184512"; // 2022 league ID
 export const leagueID2023 = "972782648546365440"; // current league ID
-export const leagueID = "1124814687217676288"; // current league ID
+export const leagueID2024 = "1124814687217676288"; // current league ID
+export const leagueID = "1257100117974974464"; // current league ID
 export const leagueName = "The Very Big 12"; // your league name
 export const dues = 200; // (optional) used in template constitution page
 export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
