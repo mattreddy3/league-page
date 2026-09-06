@@ -219,11 +219,11 @@
 
   <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
 
-  <p>18 Regular Roster Players + 3 IR Players + 3 Taxi Squad Players</p>
+  <p>20 Regular Roster Players + 3 IR Players + 3 Taxi Squad Players</p>
 
   <p>
     Beginning in 2026, each team gains 2 regular roster spots and 1 IR spot,
-    plus a new 3-player taxi squad.
+    plus a new 3-player taxi squad. The bench expands from 8 to 10 spots.
   </p>
 
   <p class="underscore">Starters</p>
@@ -240,7 +240,7 @@
     <li>D/ST</li>
   </ul>
 
-  <p>8 Bench</p>
+  <p>10 Bench</p>
 
   <p>3 IR Spots (Player must be labeled as IR or Out in the Sleeper App)</p>
 
@@ -434,8 +434,8 @@
   </p>
   <h3 bind:this={twoFour}>2.4 2026 Transition Draft</h3>
   <p>
-    The 2026 draft is a transition draft. Teams will draft with 21 regular
-    roster slots: the previous 16, plus 2 permanent additions and 3 temporary
+    The 2026 draft is a transition draft. Teams will draft with 23 regular
+    roster slots: the previous 18, plus 2 permanent additions and 3 temporary
     slots for the taxi squad transition.
   </p>
   <ol>
@@ -448,7 +448,7 @@
     </li>
     <li>
       The commissioner will remove the 3 temporary regular roster slots before
-      season kickoff, leaving 18 regular roster spots, 3 IR spots, and 3 taxi
+      season kickoff, leaving 20 regular roster spots, 3 IR spots, and 3 taxi
       squad spots per team.
     </li>
   </ol>
