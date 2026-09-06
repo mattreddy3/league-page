@@ -23,6 +23,7 @@
   let one,
     oneOne,
     oneOneOne,
+    oneOneTwo,
     oneTwo,
     oneTwoOne,
     oneTwoTwo,
@@ -39,7 +40,8 @@
     twoThreeThree,
     twoThreeFour,
     twoThreeFive,
-    twoThreeSix
+    twoThreeSix,
+    twoFour
   let three, threeOne, threeTwo
   let four, fourOne, fourTwo
   let five, fiveOne
@@ -56,6 +58,12 @@
 <div class="constitution">
   <h1 class="noUnderscore">VERY BIG 12 CONSTITUTION</h1>
 
+  <p>
+    <strong>2026 is a transitionary year.</strong> The 2026 draft introduces
+    expanded rosters and a taxi squad. See Section 1.1 for the updated roster
+    rules and Section 2.4 for the draft-to-season transition.
+  </p>
+
   <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
 
   <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>
@@ -66,6 +74,9 @@
   </h4>
   <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>
     1.1.1 Position Maximums
+  </h5>
+  <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneTwo)}>
+    1.1.2 Taxi Squad
   </h5>
   <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>
     1.2 Trading
@@ -123,6 +134,9 @@
   <h5 class="noUnderscore clickable" on:click={() => goToSection(twoThreeSix)}>
     2.3.6 Free Agents
   </h5>
+  <h4 class="noUnderscore clickable" on:click={() => goToSection(twoFour)}>
+    2.4 2026 Transition Draft
+  </h4>
 
   <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>
     Section 3: Scoring and Matchups
@@ -205,7 +219,12 @@
 
   <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
 
-  <p>16 Active Roster Players + 2 IR Players</p>
+  <p>18 Regular Roster Players + 3 IR Players + 3 Taxi Squad Players</p>
+
+  <p>
+    Beginning in 2026, each team gains 2 regular roster spots and 1 IR spot,
+    plus a new 3-player taxi squad.
+  </p>
 
   <p class="underscore">Starters</p>
   <ul>
@@ -221,13 +240,30 @@
     <li>D/ST</li>
   </ul>
 
-  <p>6 Bench</p>
+  <p>8 Bench</p>
 
-  <p>2 IR Spots (Player must be labeled as IR or Out in the Sleeper App)</p>
+  <p>3 IR Spots (Player must be labeled as IR or Out in the Sleeper App)</p>
 
   <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
 
-  <p>None.</p>
+  <p>
+    Each team is limited to 5 quarterbacks. Whether quarterbacks on the taxi
+    squad count toward this limit is pending clarification.
+  </p>
+
+  <h4 bind:this={oneOneTwo}>1.1.2 Taxi Squad</h4>
+
+  <p>
+    Each team has 3 taxi squad spots, available only to players in their first
+    or second NFL season (Year 1 or Year 2).
+  </p>
+  <p>
+    Each team is allowed one promotion from the taxi squad per season.
+    Releasing and re-adding a player resets that player's taxi status.
+  </p>
+  <p>
+    Taxi squad rules are enforced manually. <strong>PLEASE DON'T BE A DICK.</strong>
+  </p>
 
   <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
 
@@ -396,6 +432,27 @@
     different manager maintain their previous keeper status. They do not become
     FA Keepers.
   </p>
+  <h3 bind:this={twoFour}>2.4 2026 Transition Draft</h3>
+  <p>
+    The 2026 draft is a transition draft. Teams will draft with 21 regular
+    roster slots: the previous 16, plus 2 permanent additions and 3 temporary
+    slots for the taxi squad transition.
+  </p>
+  <ol>
+    <li>
+      After the draft, the commissioner will add the 3 taxi squad slots per team.
+    </li>
+    <li>
+      Managers have until the start of the season to move 3 eligible Year 1 or
+      Year 2 players from their drafted roster into the taxi squad.
+    </li>
+    <li>
+      The commissioner will remove the 3 temporary regular roster slots before
+      season kickoff, leaving 18 regular roster spots, 3 IR spots, and 3 taxi
+      squad spots per team.
+    </li>
+  </ol>
+
   <h2 class="sectionHeading" bind:this={three}>
     Section 3 Scoring and Matchups
   </h2>
